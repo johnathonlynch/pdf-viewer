@@ -1,9 +1,9 @@
 {
   "headers": [
     {
-      "source": "/(.*)",
+      "source": "/(.*\\.pdf)",
       "headers": [
-        { "key": "Cache-Control", "value": "no-cache" }
+        { "key": "Content-Type", "value": "application/pdf" }
       ]
     }
   ]
